@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|c:\\users\\st310-04\\desktop\\prakt7_evsyukov_trpo\\models\\electricityusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|solutionrelative:models\\electricityusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|c:\\users\\st310-04\\desktop\\prakt7_evsyukov_trpo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|c:\\users\\st310-04\\desktop\\prakt7_evsyukov_trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|c:\\users\\st310-04\\desktop\\prakt7_evsyukov_trpo\\converters\\benefitcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|solutionrelative:converters\\benefitcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|c:\\users\\st310-04\\desktop\\prakt7_evsyukov_trpo\\converters\\benefitconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4309F183-33BA-471F-9924-BBDF374C24D8}|prakt7_Evsyukov_TRPO.csproj|solutionrelative:converters\\benefitconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BenefitConverter.cs",
+              "DocumentMoniker": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\Converters\\BenefitConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BenefitConverter.cs",
+              "ToolTip": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\Converters\\BenefitConverter.cs",
+              "RelativeToolTip": "Converters\\BenefitConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T05:15:22.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BenefitColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\Converters\\BenefitColorConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BenefitColorConverter.cs",
+              "ToolTip": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\Converters\\BenefitColorConverter.cs",
+              "RelativeToolTip": "Converters\\BenefitColorConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T05:15:21.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ElectricityUsage.cs",
+              "DocumentMoniker": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\Models\\ElectricityUsage.cs",
+              "RelativeDocumentMoniker": "Models\\ElectricityUsage.cs",
+              "ToolTip": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\Models\\ElectricityUsage.cs",
+              "RelativeToolTip": "Models\\ElectricityUsage.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAywAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T05:15:19.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T05:15:10.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-04\\Desktop\\prakt7_Evsyukov_TRPO\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-20T05:14:57.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 516,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

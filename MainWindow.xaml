@@ -1,0 +1,88 @@
+﻿<Window x:Class="prakt7_Evsyukov_TRPO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
+        xmlns:local="clr-namespace:prakt7_Evsyukov_TRPO"
+        
+        xmlns:models="clr-namespace:prakt7_Evsyukov_TRPO.Models"
+        xmlns:converters="clr-namespace:prakt7_Evsyukov_TRPO.Converters"
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="MistyRose">
+    <Window.Resources>
+        <models:ElectricityUsage x:Key="usage"/>
+        <converters:BenefitConverter x:Key="benefitConverter"/>
+        <converters:BenefitColorConverter x:Key="benefitColorConverter"/>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <Binding Source="{StaticResource usage}"/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="5">
+            
+            <StackPanel>
+                <Label>Адрес</Label>
+                <TextBox Text="{Binding Address, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel>
+                <Label>Потребление (в кВт·ч)</Label>
+                <TextBox Text="{Binding Consumption, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel>
+                <Label>Тариф</Label>
+                <TextBox Text="{Binding Rate, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel>
+                <Label>Льгота (в %)</Label>
+                <TextBox Text="{Binding Benefit, Converter={StaticResource benefitConverter}, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="5">
+            
+            <StackPanel>
+                <Label>Адрес:</Label>
+                <TextBlock Text="{Binding Address}"/>
+            </StackPanel>
+            <StackPanel>
+                <Label>Потребление:</Label>
+                <TextBlock Text="{Binding Consumption, StringFormat={}{0} кВт·ч}"/>
+            </StackPanel>
+            <StackPanel>
+                <Label>Тариф:</Label>
+                <TextBlock Text="{Binding Rate, StringFormat={}{0:C}, ConverterCulture=ru-RU}"/>
+            </StackPanel>
+            
+            <StackPanel>
+                <StackPanel.Style>
+                    <Style TargetType="StackPanel">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Benefit}" Value="{x:Null}">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
+                <Label>Льгота:</Label>
+                <TextBlock Text="{Binding Benefit, StringFormat={}{0:P0}}"/>
+            </StackPanel>
+            
+            <StackPanel>
+                <Label>Итоговая сумма оплаты:</Label>
+                <TextBlock Text="{Binding Payment, StringFormat={}{0:C}, ConverterCulture=ru-RU}"
+                           Foreground="{Binding Benefit, Converter={StaticResource benefitColorConverter}}"/>
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</Window>
